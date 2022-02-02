@@ -24,9 +24,13 @@
         for (int i = 0; ; i++)
         {
             if (x == i)
+            {
                 i = 0;
+            }
             if (key.Length == str.Length)
+            {
                 break;
+            }
             key += (key[i]);
         }
         return key;
