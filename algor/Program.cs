@@ -14,7 +14,7 @@
         String key = generateKey(str2, kyeword2);
         String cipher_text = cipherText(str2, key);
 
-        Console.WriteLine("Ciphertext : " + cipher_text + "\n");
+        Console.WriteLine("Ciphertext : " + cipher_text);
     }
 
     static String generateKey(String str, String key)
